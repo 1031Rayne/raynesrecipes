@@ -5,10 +5,10 @@ h1 {
     color: #222222;
     margin-top: 20px;
   }
-  
-  p {
+    
+p {
     margin-bottom: 20px;
-    text-align: center;
+   text-align: center;
   }
   
   h1::after,
