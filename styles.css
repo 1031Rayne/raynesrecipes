@@ -47,7 +47,6 @@ body::before {
   background-position: center;
   background-attachment: fixed;
   opacity: 0.4;
-  z-index: -1;
 }
 
 
