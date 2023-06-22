@@ -34,11 +34,6 @@ body {
   position: relative;
 }
 
-@media (max-width: 768px) {
-  body {
-    background-attachment: scroll;
-  }
-
 body::before {
   content: "";
   position: fixed;
@@ -50,7 +45,7 @@ body::before {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed, scroll;
   opacity: 0.4;
   z-index: -1;
 }
