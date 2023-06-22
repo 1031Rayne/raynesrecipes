@@ -34,6 +34,11 @@ body {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+
 body::before {
   content: "";
   position: fixed;
@@ -49,11 +54,6 @@ body::before {
   opacity: 0.4;
   z-index: -1;
 }
-
-@media (max-width: 768px) {
-  body {
-    background-attachment: scroll;
-  }
 
 h2,
 h3 {
