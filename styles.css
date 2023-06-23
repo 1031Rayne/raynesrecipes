@@ -57,7 +57,7 @@ body::before {
 
 footer {
   font-family: fantasy;
-  font-size: 1.2em;
+  font-size: smaller;
   color: #ffffff;
 }
 
