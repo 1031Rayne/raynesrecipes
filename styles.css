@@ -55,6 +55,11 @@ body::before {
   z-index: -1;
 }
 
+footer {
+  font-family: fantasy;
+  font-size: 1.2em;
+  color: #ffffff;
+}
 
 h2,
 h3 {
