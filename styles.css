@@ -30,7 +30,7 @@ p::after {
 body {
   font-family: fantasy;
   font-size: 1.2em;
-  background-color:#222222;
+  background-color: #222222;
   position: relative;
 }
 
@@ -45,7 +45,7 @@ body::before {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-attachment: fixed, scroll;
+  background-attachment: fixed;
   opacity: 0.4;
   z-index: -1;
 }
@@ -55,7 +55,7 @@ h3 {
   font-family: fantasy;
   text-align: center;
   font-size: 2em;
-  color:#ffffff
+  color: #ffffff;
 }
 
 ol li,
@@ -150,7 +150,8 @@ ul {
   margin-top: -45px;
 }
 
-ul, ol {
+ul,
+ol {
   overflow: auto;
   color: #ffffff;
 }
@@ -165,4 +166,11 @@ ul, ol {
 
 ul {
   overflow: auto;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 767px) {
+  body::before {
+    background-attachment: scroll;
+  }
 }
